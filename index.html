@@ -70,6 +70,21 @@
     .contact-button:hover {
       background-color: #fcbf49;
     }
+    .payment-button {
+      display: inline-block;
+      margin-top: 20px;
+      background-color: #00bbf0;
+      color: white;
+      padding: 14px 22px;
+      font-size: 1.1em;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .payment-button:hover {
+      background-color: #009bd6;
+    }
     footer {
       text-align: center;
       padding: 20px;
@@ -78,9 +93,6 @@
       margin-top: 40px;
     }
   </style>
-  <script async
-    src="https://js.stripe.com/v3/buy-button.js">
-  </script>
 </head>
 <body>
   <header>
@@ -109,11 +121,9 @@
 
     <div class="cta">
       <h2>🎟️ Înscrieri Deschise – Locuri Limitate!</h2>
-      <stripe-buy-button
-        buy-button-id="buy_btn_1RdUV4C1POb1taDbBJVOzDje"
-        publishable-key="pk_live_51PBKBVC1POb1taDbkCZcZVcdVYaBC37IYGEK0e6gXyCujRgDShbLapxuGrTG2w3DowBNcfbEsXLXxWNwu3w1CZt300HALo4JSh"
-      >
-      </stripe-buy-button>
+      <a class="payment-button" href="https://wise.com/pay/r/NGqMiMMF00rYaQo" target="_blank">💳 Plătește înscrierea prin Wise</a>
+
+      <p>✉️ Scrie-ne în privat sau în comentarii pentru mai multe detalii!</p>
 
       <a class="contact-button" href="mailto:marian.dumitru@grupulverde.ro?subject=Doresc%20mai%20multe%20informatii%20legat%20de%20scoala%20de%20vara%20din%20Adjud&body=Bună ziua,%0A%0ADoresc să aflu mai multe informații despre Școala de Vară Thunkable organizată în Adjud.%0A%0AMă interesează detalii privind activitățile practice de programare, ce competențe dezvoltă cursul și cum pot înscrie copilul meu în program.%0A%0AVă mulțumesc!">📬 Ia legătura cu noi pe email</a>
 

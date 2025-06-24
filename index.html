@@ -1,246 +1,230 @@
 <!DOCTYPE html>
 <html lang="ro">
-  <meta property="og:title" content="Școala Digitală de Vară – Adjud 2025">
-  <meta property="og:description" content="Vacanța care îți lansează copilul în lumea tehnologiei! Înscrieri deschise pentru copii 9–16 ani – programare, aplicații și gândire digitală.">
-  <meta property="og:image" content="https://github.com/TheTechology/scoala/blob/main/Vacant%CC%A6a%20care%20i%CC%82t%CC%A6i%20lanseaza%CC%86%20copilul%20i%CC%82n%20lumea%20tehnologiei!.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:type" content="website">
-<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Școala Digitală de Vară din Adjud – învață programare, UI/UX și creează aplicații reale! Curs pentru copii 9–16 ani, organizat de Youth Code Academy Adjud.">
-  <meta name="keywords" content="școala digitală, vară 2025, Adjud, curs programare copii, aplicații mobile, Thunkable, Youth Code Academy">
-  <meta name="author" content="Youth Code Academy Adjud">
-  <title>Școala Digitală de Vară – Adjud 2025</title>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Nunito', sans-serif;
-      background: linear-gradient(to bottom right, #fdfcfb, #e2d1c3);
-      color: #2e2e2e;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background: linear-gradient(90deg, #ff758c, #ff7eb3);
-      color: white;
-      padding: 60px 20px;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2.5em;
-      margin-bottom: 0.5em;
-    }
-    header p {
-      font-size: 1.2em;
-      max-width: 700px;
-      margin: 0 auto;
-    }
-    .container {
-      max-width: 1100px;
-      margin: auto;
-      padding: 40px 20px;
-    }
-    h2 {
-      font-size: 1.8em;
-      color: #ff6f61;
-      margin-top: 40px;
-    }
-    .highlight, .cta, .info-box {
-      background-color: #fff;
-      border-radius: 14px;
-      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
-      padding: 20px;
-      margin-top: 20px;
-      line-height: 1.6;
-    }
-    .benefits li {
-      margin: 12px 0;
-      font-size: 1em;
-    }
-    .skills-section {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: space-between;
-    }
-    .skill-box {
-      flex: 1 1 30%;
-      background: #f9f9f9;
-      border-radius: 12px;
-      padding: 20px;
-      text-align: center;
-    }
-    .skill-box h3 {
-      color: #444;
-      margin: 10px 0;
-    }
-    .cta {
-      text-align: center;
-      background-color: #e3f2fd;
-    }
-    .cta a {
-      display: inline-block;
-      margin: 10px 12px;
-      padding: 14px 24px;
-      font-size: 1em;
-      border-radius: 10px;
-      font-weight: bold;
-      text-decoration: none;
-      transition: all 0.3s ease;
-    }
-    .payment-button {
-      background-color: #42a5f5;
-      color: white;
-    }
-    .payment-button:hover {
-      background-color: #1e88e5;
-    }
-    .contact-button {
-      background-color: #ffd54f;
-      color: #000;
-    }
-    .contact-button:hover {
-      background-color: #fbc02d;
-    }
-    footer {
-      background-color: #f8bbd0;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-      font-size: 0.9em;
-    }
-
-    @media (max-width: 768px) {
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Școala Digitală de Vară din Adjud – învață programare, UI/UX și creează aplicații reale! Curs pentru copii 9–16 ani, organizat de Youth Code Academy Adjud.">
+    <meta name="keywords" content="școala digitală, vară 2025, Adjud, curs programare copii, aplicații mobile, Thunkable, Youth Code Academy">
+    <meta name="author" content="Youth Code Academy Adjud">
+    <meta property="og:title" content="Școala Digitală de Vară – Adjud 2025">
+    <meta property="og:description" content="Vacanța care îți lansează copilul în lumea tehnologiei! Înscrieri deschise pentru copii 9–16 ani – programare, aplicații și gândire digitală.">
+    <meta property="og:image" content="https://github.com/TheTechology/scoala/blob/main/Vacant%CC%A6a%20care%20i%CC%82t%CC%A6i%20lanseaza%CC%86%20copilul%20i%CC%82n%20lumea%20tehnologiei!.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:type" content="website">
+    <title>Școala Digitală de Vară – Adjud 2025</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Nunito', sans-serif;
+        background: linear-gradient(to bottom right, #fdfcfb, #e2d1c3);
+        color: #2e2e2e;
+        margin: 0;
+        padding: 0;
+      }
+      main {
+        max-width: 1200px;
+        margin: auto;
+        padding: 40px 20px;
+      }
+      header {
+        background: linear-gradient(90deg, #ff758c, #ff7eb3);
+        color: white;
+        padding: 60px 20px;
+        text-align: center;
+      }
       header h1 {
-        font-size: 2em;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.8em;
+        margin-bottom: 0.3em;
       }
       header p {
-        font-size: 1em;
+        font-size: 1.2em;
+        max-width: 800px;
+        margin: 0 auto;
       }
-      h2 {
-        font-size: 1.5em;
+      section {
+        margin-top: 60px;
       }
-      .skill-box {
-        flex: 1 1 100%;
+      section h2 {
+        font-size: 1.9em;
+        color: #ff6f61;
+        margin-bottom: 20px;
+        font-family: 'Poppins', sans-serif;
+      }
+      .card {
+        background: #fff;
+        border-radius: 18px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        padding: 24px;
+        margin-bottom: 30px;
+        transition: transform 0.3s ease;
+      }
+      .card:hover {
+        transform: translateY(-6px);
+      }
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: space-between;
+      }
+      .flex-50 {
+        flex: 1 1 45%;
+      }
+      .flex-33 {
+        flex: 1 1 30%;
+        text-align: center;
+      }
+      .icon {
+        font-size: 3em;
+      }
+      .cta {
+        background-color: #e3f2fd;
+        text-align: center;
+        border-radius: 14px;
+        padding: 30px 20px;
+        margin-top: 60px;
       }
       .cta a {
-        font-size: 1em;
-        padding: 12px 20px;
+        display: inline-block;
+        margin: 10px;
+        padding: 16px 28px;
+        font-size: 1.1em;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 10px;
+        transition: all 0.3s ease;
       }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>🎉 Vacanța care îți lansează copilul în lumea tehnologiei!</h1>
-    <p>💡 Creează aplicații. Învață logică. Gândește ca un programator – încă din această vară, la Școala Digitală de Vară din Adjud!</p>
-  </header>
+      .payment-button {
+        background-color: #42a5f5;
+        color: white;
+      }
+      .payment-button:hover {
+        background-color: #1e88e5;
+      }
+      .contact-button {
+        background-color: #ffd54f;
+        color: #000;
+      }
+      .contact-button:hover {
+        background-color: #fbc02d;
+      }
+      footer {
+        background-color: #f8bbd0;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        font-size: 0.9em;
+      }
+      @media (max-width: 768px) {
+        header h1 {
+          font-size: 2em;
+        }
+        .flex-50, .flex-33 {
+          flex: 1 1 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>🎉 Vacanța care îți lansează copilul în lumea tehnologiei!</h1>
+      <p>💡 Creează aplicații. Învață logică. Gândește ca un programator – încă din această vară, la Școala Digitală de Vară din Adjud!</p>
+    </header>
+    <main>
+  <section>
+    <h2>🔎 De ce să participe copilul tău?</h2>
+    <div class="card">Îi oferim o experiență completă de inițiere în tehnologie: copilul tău învață să creeze aplicații reale, dezvoltă gândirea logică și își exersează creativitatea prin programare vizuală. Totul într-un cadru sigur, prietenos și distractiv.</div>
+  </section>
 
-  
+  <section>
     <h2>👨‍🏫 Despre Formator</h2>
-    <div class="info-box">
-      <strong>Marian Dumitru</strong> este formatorul principal al Școlii Digitale de Vară – Adjud 2025. Cu o experiență de peste 10 ani în educație digitală, web design și programare aplicată, Marian a format sute de copii și tineri în domeniul tehnologiei. Este cunoscut pentru stilul său empatic, clar și creativ, adaptat perfect pentru vârsta copiilor. În cadrul Youth Code Academy Adjud, Marian coordonează programe practice care încurajează gândirea critică, inovația și încrederea în sine.
-    </div>
-    <h2>❓ De ce să participe copilul tău?</h2>
-    <div class="highlight">
-      📌 <strong>Tehnologia este limbajul viitorului.</strong> Copiii care învață programare devin creatori de soluții, nu doar consumatori de ecrane.<br><br>
-      🎯 <strong>Învățare prin joacă și practică.</strong> Fiecare lecție e o aventură unde logica, designul și codarea se întâlnesc pentru a crea aplicații reale.<br><br>
-      🤩 <strong>Creștere în încredere și autonomie.</strong> Copiii își prezintă proiectele, primesc feedback și învață să comunice idei într-un mod convingător.
-    </div>
+    <div class="card">Cursul este susținut de <strong>Marian Dumitru</strong>, specialist în educație digitală și inițiator al programelor Youth Code Academy în regiunea Vrancea. Cu peste 10 ani de experiență în design UX/UI și predare practică, Marian îndrumă copiii pas cu pas, cu răbdare și pasiune.</div>
+  </section>
 
-    <h2>🔧 Ce este Școala Digitală de Vară Thunkable?</h2>
-    <div class="info-box">
-      O experiență creativă unică în Adjud unde copiii devin inventatori de aplicații! Într-un cadru prietenos și stimulant, participanții învață cum să transforme ideile lor în aplicații mobile reale – fără să scrie cod complicat!
-    </div>
-
-    <h2>📍 Detalii organizatorice</h2>
-    <div class="highlight">
-      <strong>Locație:</strong> Str. Alexandru Ioan Cuza nr. 64, Adjud<br>
-      <strong>Perioadă:</strong> 30 iunie – 30 iulie 2025<br>
-      <strong>Program:</strong> Luni, Marți, Miercuri | 09:00 – 12:00<br>
-      <strong>Grupă de vârstă:</strong> 9 – 16 ani<br>
-      <strong>Cost:</strong> 350 lei / 12 sesiuni
-    </div>
-
-    <h2>🚀 Ce vom face concret?</h2>
-    <ul class="benefits">
-      <li>📲 Construim aplicații mobile pas cu pas – de la idee la lansare</li>
-      <li>🎨 Învățăm design vizual modern (UI/UX)</li>
-      <li>🧠 Ne antrenăm logica și creativitatea cu codare vizuală</li>
-      <li>🧪 Testăm și optimizăm aplicațiile create</li>
-      <li>🌟 Participăm la „Tech Show & Tell” – prezentarea aplicațiilor în fața colegilor și familiei</li>
-    </ul>
-
+  <section>
     <h2>📅 Programul celor 4 săptămâni</h2>
-    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
-      <div style="flex: 1 1 45%; background: #ffffff; border-radius: 16px; padding: 20px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); transform: perspective(800px) rotateY(-2deg); transition: transform 0.3s ease;">
-        <h3>🧱 Săptămâna 1 – Primii pași</h3>
+    <div class="flex-container">
+      <div class="card flex-50">
+        <h3>Săptămâna 1: Introducere în Thunkable</h3>
         <ul>
-          <li>Cunoaștem platforma Thunkable</li>
-          <li>Creăm prima aplicație</li>
-          <li>Blocuri logice simple</li>
+          <li>Ce este o aplicație mobilă?</li>
+          <li>Crearea contului și explorarea interfeței</li>
+          <li>Primul proiect: Butoane și text</li>
         </ul>
       </div>
-      <div style="flex: 1 1 45%; background: #ffffff; border-radius: 16px; padding: 20px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); transform: perspective(800px) rotateY(2deg); transition: transform 0.3s ease;">
-        <h3>🎨 Săptămâna 2 – Design interactiv</h3>
+      <div class="card flex-50">
+        <h3>Săptămâna 2: Design și logica aplicației</h3>
         <ul>
-          <li>Principii UI/UX pentru copii</li>
-          <li>Adăugăm sunete și imagini</li>
-          <li>Creăm aplicații atractive</li>
+          <li>Design UI/UX pentru copii</li>
+          <li>Adăugare imagini, culori, navigare</li>
+          <li>Algoritmi și blocuri logice simple</li>
         </ul>
       </div>
-      <div style="flex: 1 1 45%; background: #ffffff; border-radius: 16px; padding: 20px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); transform: perspective(800px) rotateY(-2deg); transition: transform 0.3s ease;">
-        <h3>🧪 Săptămâna 3 – Testare</h3>
+      <div class="card flex-50">
+        <h3>Săptămâna 3: Funcționalități avansate</h3>
         <ul>
-          <li>Salvarea datelor</li>
-          <li>Testare pe telefon real</li>
-          <li>Optimizare interfață</li>
+          <li>Listări, baze de date și variabile</li>
+          <li>Creare aplicații tip quiz, listă, galerie</li>
+          <li>Testare și optimizare</li>
         </ul>
       </div>
-      <div style="flex: 1 1 45%; background: #ffffff; border-radius: 16px; padding: 20px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); transform: perspective(800px) rotateY(2deg); transition: transform 0.3s ease;">
-        <h3>🎤 Săptămâna 4 – Lansare finală</h3>
+      <div class="card flex-50">
+        <h3>Săptămâna 4: Show & Tell</h3>
         <ul>
-          <li>Finalizare aplicație</li>
-          <li>Pregătire pentru Tech Show & Tell</li>
-          <li>Prezentare în fața familiei</li>
+          <li>Crearea aplicației finale</li>
+          <li>Prezentare în fața colegilor</li>
+          <li>Feedback, diplome și inspirație!</li>
         </ul>
       </div>
     </div>
+  </section>
 
-    
-    <div class="skills-section">
-      <div class="skill-box">
-        <div style="font-size: 2.5em;">🤖</div>
-        <h3>Gândire Computațională</h3>
-        <p>Copiii învață să descompună probleme, să gândească în pași logici și să creeze soluții reale.</p>
+  <section>
+    <h2>💡 Deprinderi dezvoltate</h2>
+    <div class="flex-container">
+      <div class="card flex-33">
+        <div class="icon">🧠</div>
+        <h3>Gândire logică</h3>
+        <p>Copiii învață să construiască structuri, algoritmi simpli și logica unui program.</p>
       </div>
-      <div class="skill-box">
-        <div style="font-size: 2.5em;">🎨</div>
-        <h3>Creativitate Digitală</h3>
-        <p>Prin design vizual și storytelling, fiecare copil creează o aplicație care reflectă propria imaginație.</p>
+      <div class="card flex-33">
+        <div class="icon">🎨</div>
+        <h3>Creativitate digitală</h3>
+        <p>Design interfețe prietenoase, personalizare aplicații și exprimare vizuală liberă.</p>
       </div>
-      <div class="skill-box">
-        <div style="font-size: 2.5em;">🤝</div>
-        <h3>Lucru în Echipă</h3>
-        <p>Exersăm colaborarea, empatia și comunicarea în cadrul activităților de grup.</p>
+      <div class="card flex-33">
+        <div class="icon">🤝</div>
+        <h3>Lucru în echipă</h3>
+        <p>Participanții colaborează, oferă feedback și prezintă ideile într-un cadru deschis.</p>
       </div>
     </div>
+  </section>
 
-    <div class="cta">
-      <h2>🎟️ Rezervă locul copilului tău chiar acum!</h2>
-      <p>Locuri limitate – oferim atenție personalizată fiecărui participant.</p>
-      <a class="payment-button" href="https://wise.com/pay/r/NGqMiMMF00rYaQo" target="_blank">💳 Plătește înscrierea prin Wise</a>
-      <a class="contact-button" href="mailto:marian.dumitru@grupulverde.ro?subject=Doresc%20mai%20multe%20informatii%20legat%20de%20scoala%20de%20vara%20din%20Adjud&body=Bună ziua,%0A%0ADoresc să aflu mai multe informații despre Școala Digitală de Vară Thunkable organizată în Adjud.%0A%0AMă interesează detalii privind activitățile practice de programare, ce competențe dezvoltă cursul și cum pot înscrie copilul meu în program.%0A%0AVă mulțumesc!">📬 Ia legătura cu noi pe email</a>
-      <p><small>📌 Ne găsești și la: (Strada) Alexandru Ioan Cuza 64 Adjud, Vrancea 625100</small></p>
+  <section class="cta">
+    <h2>🎫 Rezervă locul copilului tău chiar acum!</h2>
+    <a class="payment-button" href="https://wise.com/pay/r/NGqMiMMF00rYaQo" target="_blank">Plătește online</a>
+    <a class="contact-button" href="mailto:marian.dumitru@grupulverde.ro?subject=Doresc%20mai%20multe%20informații%20legat%20de%20școala%20de%20vară%20din%20Adjud&body=Bună ziua,%0A%0ADoresc să aflu mai multe detalii despre Școala Digitală de Vară pentru copilul meu. Îmi puteți oferi mai multe informații despre înscriere, program și conținutul cursului?%0A%0AMulțumesc!">Contactează-ne</a>
+  </section>
+
+  <section>
+    <h2>📍 Locație și acces</h2>
+    <div class="card">
+      Programul are loc la <strong>Strada Alexandru Ioan Cuza 64, Adjud, Vrancea</strong>, într-un spațiu adaptat copiilor, modern și dotat digital. Ne găsiți în apropiere de Strada Nicolae Bălcescu 100, Sc. 2.
+      <iframe
+        src="https://www.google.com/maps?q=Strada%20Alexandru%20Ioan%20Cuza%2064%20Adjud&output=embed"
+        width="100%" height="300" style="border:0; border-radius:12px; margin-top: 20px;"
+        allowfullscreen loading="lazy">
+      </iframe>
     </div>
-  </div>
-
-  <footer>
-    © 2025 Youth Code Academy Adjud · Educație cu tehnologie pentru viitor 🌱
-  </footer>
-</body>
+  </section>
+</main>
+    <footer>
+      © 2025 Youth Code Academy Adjud · Educație cu tehnologie pentru viitor 🌱
+    </footer>
+  </body>
 </html>

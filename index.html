@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabăra Digitală de Vară – Adjud 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to bottom right, #fef6e4, #fcd5ce);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff6f61;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      font-family: 'Fredoka', sans-serif;
+    }
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 1.8em;
+      margin-top: 30px;
+      color: #ff6f61;
+    }
+    .container {
+      padding: 20px;
+      max-width: 850px;
+      margin: auto;
+    }
+    .highlight {
+      background-color: #fff3cd;
+      border-left: 6px solid #f59e0b;
+      padding: 15px;
+      font-size: 1.1em;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    .benefits {
+      padding-left: 20px;
+    }
+    .benefits li {
+      margin: 10px 0;
+      font-size: 1.1em;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+      background-color: #e0f7fa;
+      padding: 25px;
+      border-radius: 12px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffe5ec;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+  </style>
+  <script async
+    src="https://js.stripe.com/v3/buy-button.js">
+  </script>
+</head>
+<body>
+  <header>
+    <h1>🎉 Vacanța Devine Aventură Digitală!</h1>
+    <p>🔍 Învață, Creează și Uimește – Totul într-o lună de distracție educativă!</p>
+  </header>
+
+  <div class="container">
+    <div class="highlight">
+      <strong>📍 Locație:</strong> Str. Alexandru Ioan Cuza nr. 64, Adjud<br>
+      <strong>📅 Perioadă:</strong> 30 iunie – 30 iulie 2025<br>
+      <strong>🕘 Program:</strong> Luni, Marți, Miercuri | 09:00 – 12:00<br>
+      <strong>👧👦 Vârste:</strong> 9 – 16 ani &nbsp; | &nbsp; <strong>💸 Cost:</strong> 350 lei / 12 sesiuni
+    </div>
+
+    <h2>🚀 Ce vom face?</h2>
+    <ul class="benefits">
+      <li>📱 Construim aplicații mobile de la zero</li>
+      <li>🎨 Înțelegem cum să facem design prietenos (UI/UX)</li>
+      <li>🧠 Gândim logic și folosim codarea vizuală</li>
+      <li>🛠️ Testăm, îmbunătățim și ne prezentăm proiectele</li>
+    </ul>
+
+    <p>🌟 Platforma <strong>Thunkable</strong> este folosită în școli de top, inclusiv MIT & Harvard!</p>
+    <p>🎓 Fiecare copil își va prezenta aplicația într-un eveniment special „<strong>Tech Show & Tell</strong>”.</p>
+
+    <div class="cta">
+      <h2>🎟️ Înscrieri Deschise – Locuri Limitate!</h2>
+      <stripe-buy-button
+        buy-button-id="buy_btn_1RdUV4C1POb1taDbBJVOzDje"
+        publishable-key="pk_live_51PBKBVC1POb1taDbkCZcZVcdVYaBC37IYGEK0e6gXyCujRgDShbLapxuGrTG2w3DowBNcfbEsXLXxWNwu3w1CZt300HALo4JSh"
+      >
+      </stripe-buy-button>
+      <p>✉️ Scrie-ne în privat sau în comentarii pentru mai multe detalii!</p>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Asociația Grupul Verde · Educație cu tehnologie pentru viitor 🌱
+  </footer>
+</body>
+</html>
